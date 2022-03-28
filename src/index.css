@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+}
+body{
+  --background: #fafafa;
+  --lightGrey: #d3d3d3;
+  --primary: #ffffff;
+  --textGrey: #8e8e8e;
+  --secondary: #000000;
+  --fillRed: #ff0000;
+  --textBlue: #0095f6;
+  --pinkGradient: linear-gradient(135deg, #c10a67, #e52143, #dfc824);
+  --redGradient: linear-gradient(0deg, #c91d1d, #b1326f);
+  --white: #ffffff;
+}
+body.dark{
+  --background: #000000;
+  --lightGrey: #4d4d4d;
+  --primary: #000000;
+  --textGrey: #8e8e8e;
+  --secondary: #ffffff;
+  --fillRed: #ff0000;
+  --textBlue: #0095f6;
+  --pinkGradient: linear-gradient(135deg, #c10a67, #e52143, #dfc824);
+  transition: 300ms;
+}
+div{
+  color: var(--secondary);
+}
+body {
+  background-color: var(--background);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 300ms;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fa-heart{
+  cursor: pointer;
+}
+.color-red{
+  color: var(--fillRed);
+}
+

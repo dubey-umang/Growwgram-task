@@ -1,0 +1,36 @@
+.ep201Container {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--secondary);
+  color: var(--white);
+  position: relative;
+}
+.ep201Content {
+  position: fixed;
+  padding-top: 15vh;
+  background: black;
+  z-index: 300;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  font-size: 1.5rem;
+  min-height: 100vh;
+}
+.ep201Content > div{
+  color: var(--white);
+}
+.ep201ErrorImage{
+  width: 400px;
+}
+.ep201Text {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px var(--textBlue);
+}
+.ep201GoBackLink {
+  margin-left: 10px;
+  color: var(--textBlue);
+}

@@ -1,0 +1,19 @@
+.sl201Container {
+  width: 100%;
+  text-align: -webkit-center;
+}
+.sl201Spinner {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-top: 2px solid var(--textBlue);
+  animation: spinner1 1s linear infinite;
+}
+@keyframes spinner1 {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
